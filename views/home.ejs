@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+    <h1 align="center">Home</h1>
+    <p style="font-size: 20px"><%= homeContent %> </p><br>
+    <p style="font-size: 20px">Here are some recent posts you might like:</p><br>
+<% for (let i = 0; i < newposts.length; i++){ %>
+        <h1><%= newposts[i].Heading %> </h1>
+        <p>
+            <i><%= newposts[i].Content %></i>.... 
+        <a href="/posts/<%= newposts[i]._id%>">Read More</a>
+        </p>
+<% } %>
+<%- include("partials/footer"); -%>
