@@ -1,7 +1,11 @@
 # My-ToDoList
-This is a Dynamic ToDoList which can be accessed by anyone.
-This app has been hosted using heroku; the URL is https://sheltered-coast-78548.herokuapp.com/
-To use its Dynamic feature of todolist - after the URL - .com/ListToBeAccessed
-Eg. https://sheltered-coast-78548.herokuapp.com/School
+This is a Dynamic ToDoList.
+To run the project you have to install node from your web-browser.
+First open the command prompt.
+Copy the file path after downloading.
+Run the command: cd <File Path>
+Next type the command node app.js
+
+Finally On the web browser, search localhost:3000/
 
 I have used HTML, CSS, Node.js, Mongoose, EJS, and standard javascript
